@@ -31,8 +31,9 @@ def line
   else 
     i = 0 
     katz_deli.size.times do
-    "The line is currently: #{i + 1}. #{"katz_deli[i]}"
-    i += 1 
+      "The line is currently: #{i + 1}. #{"katz_deli[i]}"
+      i += 1 
+    end
   end
 end
 
