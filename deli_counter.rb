@@ -28,7 +28,9 @@
 def line 
   if katz_deli.size == 0 
     "The line is currently empty."
-  else "The line is currently: #{i + 1}. #{"katz_deli[i]}"
+  else 
+    i = 0
+    "The line is currently: #{i + 1}. #{"katz_deli[i]}"
     
 end
 
