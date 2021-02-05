@@ -30,3 +30,6 @@ def line
     "The line is currently empty."
   end
 end
+
+# ("The line is currently: 1. Logan 2. Avi 3. Spencer")
+
