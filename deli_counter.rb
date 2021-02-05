@@ -31,7 +31,7 @@ def line(katz_deli)
   else 
     i = 0
     initial_string = "The line is currently:"
-    while i < katz_deli.size
+    katz_deli.size.times do
       initial_string << " #{i + 1}. #{katz_deli[i]}"
       i += 1 
     end
