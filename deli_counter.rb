@@ -35,6 +35,7 @@ def line(katz_deli)
       initial_string << " #{i + 1}. #{katz_deli[i]}"
       i += 1 
     end
+    puts initial_string
   end
 end
 
