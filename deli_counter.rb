@@ -30,7 +30,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     i = 0
-    initial_string = "The line is currently: "
+    initial_string = "The line is currently:"
     while i < katz_deli.size
       initial_string << " #{i + 1}. #{katz_deli[i]}"
       i += 1 
